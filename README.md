@@ -1,4 +1,4 @@
-# portfolio-mobile
+# mobile-view
 
 This project is about creating a mobile view of my personal portifolio
 
