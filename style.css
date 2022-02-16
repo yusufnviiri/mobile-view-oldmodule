@@ -1,0 +1,107 @@
+header {
+  max-width: 375px;
+  margin: auto;
+  background-color: white;
+  height: 718px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid whitesmoke;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 355px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 10%;
+  padding-right: 10px;
+}
+
+#menu1 {
+  width: 35px;
+  height: 25px;
+}
+
+.logo {
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 45px;
+  text-align: left;
+  padding-right: 3em;
+  padding-top: 1.6em;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+#t1 {
+  top: 1px;
+  left: -26px;
+  position: absolute;
+}
+
+#t2 {
+  top: 20px;
+  left: 33%;
+  position: absolute;
+}
+
+#t3 {
+  top: 1px;
+  right: -07%;
+  position: absolute;
+}
+
+#t4 {
+  top: 1px;
+  right: 30%;
+  position: absolute;
+}
+
+#b1 {
+  bottom: 30px;
+  right: 1px;
+  position: absolute;
+}
+
+#b2 {
+  bottom: -20%;
+  right: 20%;
+  position: absolute;
+}
+
+#b3 {
+  bottom: -30px;
+  position: absolute;
+}
+
+.icons {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 10px;
+  max-width: 45%;
+}
