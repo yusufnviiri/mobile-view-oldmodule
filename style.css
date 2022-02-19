@@ -1,10 +1,23 @@
-.wrapper {
-  max-width: 375px;
+.wrapper1 {
+  position: relative;
   margin: auto;
   height: 650px;
-  margin-bottom: 20px;
-  border: 1px solid antiquewhite;
+  background-color: white;
+  margin-bottom: 100px;
+  border: 1px solid white;
   border-bottom-left-radius: 7em;
+  max-width: 400px;
+}
+
+.wrapper {
+  background-color: #f2f4f8;
+  max-width: 400px;
+  margin: auto;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: sans-serif;
 }
 
 .wrapper2 {
@@ -49,7 +62,6 @@ header {
 }
 
 h1 {
-  font-family: sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: bolder;
@@ -61,10 +73,10 @@ h1 {
   padding-left: 25px;
   margin-bottom: 20px;
   margin-top: 2px;
+  color: #172b4d;
 }
 
 p {
-  font-family: sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -74,6 +86,7 @@ p {
   padding-right: 25px;
   padding-top: 1px;
   margin-top: 1px;
+  color: #344563;
 }
 
 #connect {
@@ -129,6 +142,7 @@ p {
   font-weight: bolder;
   margin-bottom: 2px;
   padding-bottom: 1px;
+  color: #172b4d;
 }
 
 .tonic {
@@ -136,19 +150,20 @@ p {
   padding-top: 3em;
   max-width: 330px;
   margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 1px;
   padding-bottom: 3em;
-  margin-bottom: 50px;
-  border: 1px solid goldenrod;
-  border-radius: 10px;
+  margin-bottom: 100px;
+  border: 1px solid #dfe1e6;
+  border-radius: 20px;
+  background-color: white;
 }
 
 #profs {
   display: flex;
   color: #7a869a;
   justify-content: space-between;
-  width: 70%;
+  width: 82%;
   padding-left: 0%;
   margin-left: 0%;
 }
@@ -157,7 +172,7 @@ p {
   display: flex;
   color: #7a869a;
   justify-content: space-between;
-  width: 70%;
+  width: 82%;
   padding-left: 0%;
   margin-left: 0%;
 }
@@ -166,7 +181,7 @@ p {
   display: flex;
   color: #7a869a;
   justify-content: space-between;
-  width: 70%;
+  width: 82%;
   padding-left: 0%;
   margin-left: 0%;
 }
@@ -175,7 +190,7 @@ p {
   display: flex;
   color: #7a869a;
   justify-content: space-between;
-  width: 70%;
+  width: 82%;
   padding-left: 0%;
   margin-left: 0%;
 }
@@ -183,29 +198,33 @@ p {
 #cannopy {
   list-style: none;
   font-weight: bolder;
-  font-family: sans-serif;
   color: #344563;
+  position: relative;
+  top: 1px;
 }
 
 #cannopy1 {
   list-style: none;
   font-weight: bolder;
-  font-family: sans-serif;
   color: #344563;
+  position: relative;
+  top: 1px;
 }
 
 #cannopy2 {
   list-style: none;
   font-weight: bolder;
-  font-family: sans-serif;
   color: #344563;
+  position: relative;
+  top: 1px;
 }
 
 #cannopy3 {
   list-style: none;
   font-weight: bolder;
-  font-family: sans-serif;
   color: #344563;
+  position: relative;
+  top: 1px;
 }
 
 .tonic p {
@@ -228,70 +247,107 @@ p {
 }
 
 .button button {
-  color: #396df2;
+  color: #6070ff;
   height: 25px;
   border-radius: 8px;
-  border-color: aliceblue;
+  border-color: #ebebff;
+  background-color: #ebebff;
+  border-style: none;
 }
 
-#hidden {
-  width: 150px;
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.hidden button {
+  width: 133px;
   height: 40px;
-  border-radius: 10px;
-  font-weight: bolder;
+  border-radius: 6px;
+  font-style: normal;
   font-size: 17px;
-  color: #396df2;
+  color: #6070ff;
   background-color: white;
-  font-family: sans-serif;
-  border: 1px solid black;
+  border: 1px solid #7f8cff;
+  line-height: 24px;
+  letter-spacing: 3%;
 }
 
-#hidden2 {
-  width: 150px;
+.hidden2 button {
+  width: 133px;
   height: 40px;
-  border-radius: 10px;
-  font-weight: bolder;
+  border-radius: 6px;
+  font-style: normal;
   font-size: 17px;
-  color: #396df2;
+  color: #6070ff;
   background-color: white;
-  font-family: sans-serif;
-  border: 1px solid black;
+  border: 1px solid #7f8cff;
+  line-height: 24px;
+  letter-spacing: 3%;
 }
 
-#hidden3 {
-  width: 140px;
+.hidden3 button {
+  width: 133px;
   height: 40px;
-  border-radius: 10px;
-  font-weight: bolder;
-  font-size: 15px;
-  color: #396df2;
-  background-color: white;
-  font-family: sans-serif;
-  border: 1px solid black;
-}
-
-#hidden4 {
-  width: 150px;
-  height: 40px;
-  border-radius: 10px;
-  font-weight: bolder;
+  border-radius: 6px;
+  font-style: normal;
   font-size: 17px;
-  color: #396df2;
+  color: #6070ff;
   background-color: white;
-  font-family: sans-serif;
-  border: 1px solid black;
+  border: 1px solid #7f8cff;
+  line-height: 24px;
+  letter-spacing: 3%;
 }
 
-#hidden1 {
-  width: 150px;
+.hidden4 button {
+  width: 133px;
   height: 40px;
-  border-radius: 10px;
-  font-weight: bolder;
+  border-radius: 6px;
+  font-style: normal;
   font-size: 17px;
-  color: #396df2;
+  color: #6070ff;
   background-color: white;
-  font-family: sans-serif;
-  border: 1px solid black;
+  border: 1px solid #7f8cff;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+.hidden1 button {
+  width: 133px;
+  height: 40px;
+  border-radius: 6px;
+  font-style: normal;
+  font-size: 17px;
+  color: #6070ff;
+  background-color: white;
+  border: 1px solid #7f8cff;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+.hidden button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.hidden1 button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.hidden2 button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.hidden3 button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.hidden4 button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 #stories-header {
@@ -324,15 +380,23 @@ p {
   width: 55%;
 }
 
-.about {
+.abt {
   position: relative;
+}
+
+.about {
+  position: absolute;
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(250, 253, 255);
-  padding-top: 1.5em;
-  padding-left: 20px;
-  padding-right: 25px;
-  border-top-right-radius: 60px;
+  padding-top: 6em;
+  padding-left: 37px;
+  padding-right: 2px;
+  min-width: 358px;
+  left: -11px;
+  top: -52px;
+  border-top-right-radius: 50px;
+  background-color: white;
 }
 
 .about p {
@@ -345,10 +409,16 @@ p {
 }
 
 .about h2 {
-  max-width: 40%;
-  font-family: sans-serif;
   font-size: 30px;
   line-height: 40px;
+  line-height: 80%;
+  text-align: left;
+  color: #172b4d;
+  font-weight: bold;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+  padding-top: 1px;
+  margin-top: 1px;
 }
 
 .languages > ul {
@@ -377,13 +447,13 @@ p {
 #fram {
   position: absolute;
   left: 75%;
-  top: 788px;
+  top: 790px;
 }
 
 #skill {
   position: absolute;
   left: 75%;
-  top: 855px;
+  top: 860px;
 }
 
 .frame-skill a {
@@ -423,5 +493,12 @@ p {
   padding-top: 22px;
   left: -35px;
   border-bottom: 1px solid #e2dfdf;
+}
+
+#profiler2 a {
+  color: black;
+}
+
+#profiler1 a {
   color: black;
 }
