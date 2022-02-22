@@ -334,11 +334,6 @@ button:hover {
   color: #6070ff;
 }
 
-.contact-form a {
-  height: 50px;
-  width: 80%;
-}
-
 .contact-form button:hover {
   background-color: rebeccapurple;
   color: #6070ff;
