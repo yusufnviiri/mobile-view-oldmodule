@@ -234,7 +234,12 @@
               </li>
             </ul>
           </section>
-          <form action="post" method="post" class="contact-form">
+          <form
+            action="https://formspree.io/f/mgedkqkj"
+            method="post"
+            class="contact-form"
+            autocomplete="off"
+          >
             <h2>Contact Me</h2>
             <p>
               If you have an application you are interested in developing, a
@@ -242,9 +247,16 @@
               love to help with it.
             </p>
 
-            <input type="text" placeholder="Yusuf" required maxlength="30" />
+            <input
+              name="Name"
+              type="text"
+              placeholder="Yusuf"
+              required
+              maxlength="30"
+            />
             <br />
             <input
+              name="email"
               type="email"
               id="email"
               placeholder="yusufnviiri@gmail.com"
@@ -252,6 +264,7 @@
             /><br />
 
             <textarea
+              name="Message"
               class="textarea"
               cols="30"
               rows="10"
