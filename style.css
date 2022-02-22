@@ -526,14 +526,16 @@ button:hover {
 .contact-form {
   position: absolute;
   bottom: -1610px;
-  min-width: 347px;
+  min-width: 338px;
   border: 1px solid #6070ff;
   margin: auto;
-  padding-left: 20px;
+  padding-left: 30px;
   border-top-left-radius: 3.5em;
-  display: grid;
+  display: flex;
   font-family: sans-serif;
   justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
   padding-right: 30px;
   background-color: #6070ff;
   background-image: url(images/bg1.png);
@@ -550,6 +552,7 @@ button:hover {
   padding-bottom: 0%;
   padding-top: 2em;
   color: white;
+  align-self: center;
 }
 
 .contact-form p {
@@ -597,4 +600,5 @@ textarea {
   width: 150px;
   border-radius: 5px;
   justify-self: center;
+  align-self: center;
 }
