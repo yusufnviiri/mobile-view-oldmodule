@@ -325,6 +325,25 @@ button:hover {
   letter-spacing: 3%;
 }
 
+.contact-form button {
+  height: 50px;
+  border-radius: 10px;
+  border-color: #cfd8dc;
+  border-style: none;
+  width: 40%;
+  color: #6070ff;
+}
+
+.contact-form a {
+  height: 50px;
+  width: 80%;
+}
+
+.contact-form button:hover {
+  background-color: rebeccapurple;
+  color: #6070ff;
+}
+
 .hidden button:hover {
   background-color: #6070ff;
   color: white;
