@@ -502,3 +502,76 @@ button:hover {
 #profiler1 a {
   color: black;
 }
+
+.contact-form {
+  position: absolute;
+  max-width: 400px;
+  border: 1px solid white;
+  margin: auto;
+  padding-left: 20px;
+  border-top-left-radius: 3em;
+  display: grid;
+  justify-content: center;
+  padding-right: 30px;
+  background-color: #6070ff;
+  background-image: url(images/bg1.png);
+  background-repeat: no-repeat;
+  background-size: 450px 700px;
+  padding-bottom: 3em;
+}
+
+.contact-form h2 {
+  justify-self: center;
+  font-size: 55px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  padding-top: 1em;
+  color: white;
+}
+
+.contact-form p {
+  justify-self: center;
+  font-size: 23px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form input {
+  height: 50px;
+  border-radius: 10px;
+  border-color: #cfd8dc;
+  border-style: none;
+}
+
+input::placeholder {
+  color: #172b4d;
+  padding-left: 20px;
+  font-size: large;
+}
+
+::placeholder {
+  color: #b3bac5;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+textarea {
+  border-radius: 10px;
+  border-color: #cfd8dc;
+  border-style: none;
+}
+
+#getintouch {
+  width: 170px;
+  color: #6070ff;
+  font-size: large;
+}
+
+#mark {
+  background-color: #0d151e;
+  height: 10px;
+  margin-top: 2em;
+  width: 150px;
+  border-radius: 5px;
+  justify-self: center;
+}
