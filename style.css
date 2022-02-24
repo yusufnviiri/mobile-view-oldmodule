@@ -75,13 +75,18 @@ h1 {
   margin-top: 2px;
   color: #172b4d;
   animation-name: design;
-  animation-duration: 3s; 
+  animation-duration: 3s;
 }
 
 @keyframes design {
-  from {color: rebeccapurple;}
-  to {color:  green;}
+  from {
+    color: rebeccapurple;
   }
+
+  to {
+    color: green;
+  }
+}
 
 p {
   font-size: 16px;
