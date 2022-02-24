@@ -270,7 +270,6 @@ p {
 button:hover {
   background-color: #6070ff;
   color: white;
-
 }
 
 .hidden button {
@@ -324,7 +323,6 @@ button:hover {
   -o-border-radius: 6px;
 }
 
-
 .hidden4 button {
   width: 133px;
   height: 40px;
@@ -374,8 +372,6 @@ button:hover {
 .hidden button:hover {
   background-color: #6070ff;
   color: white;
- 
-  
 }
 
 .hidden1 button:hover {
