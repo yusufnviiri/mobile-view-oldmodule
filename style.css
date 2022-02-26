@@ -42,6 +42,10 @@ header {
   height: 25px;
 }
 
+#menu2 {
+  display: none;
+}
+
 .logo > a {
   color: blue;
   font-family: sans-serif;
@@ -276,6 +280,14 @@ p {
   top: 1px;
 }
 
+#cannopyy2 {
+  list-style: none;
+  font-weight: bolder;
+  color: #344563;
+  position: relative;
+  top: 1px;
+}
+
 #cannopy1 {
   list-style: none;
   font-weight: bolder;
@@ -426,6 +438,23 @@ button:hover {
   -o-border-radius: 6px;
 }
 
+.hidden33 button {
+  width: 133px;
+  height: 40px;
+  border-radius: 6px;
+  font-style: normal;
+  font-size: 17px;
+  color: white;
+  background-color: #4053fc;
+  border: 1px solid #7f8cff;
+  line-height: 24px;
+  letter-spacing: 3%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
 .hidden4 button {
   width: 133px;
   height: 40px;
@@ -488,6 +517,12 @@ button:hover {
 }
 
 .hidden3 button:hover {
+  background-color: #6070ff;
+  color: white;
+  border-radius: 100px;
+}
+
+.hidden33 button:hover {
   background-color: #6070ff;
   color: white;
   border-radius: 100px;
@@ -788,21 +823,26 @@ input::placeholder {
   }
 
   .wrapper {
-    max-width: 80%;
+    max-width: 100%;
+    margin: auto;
+    background-color: #e5e5e5;
   }
 
   .wrapper1 {
-    max-width: 100%;
+    max-width: 95%;
     margin-bottom: 1px;
-    padding-left: 50px;
+    padding-bottom: 100px;
+    z-index: 1;
   }
 
   .wrapper2 {
-    max-width: 100%;
-    padding-right: 45px;
-    padding-left: 25px;
-    padding-bottom: 200px;
-    margin: 0%;
+    padding-top: 100px;
+    position: relative;
+    max-width: 95%;
+    padding-bottom: 160px;
+    margin: auto;
+    background-color: #f2f4f8;
+    top: -90px;
   }
 
   #menu1 {
@@ -811,10 +851,6 @@ input::placeholder {
 
   header {
     max-width: 90%;
-  }
-
-  .details {
-    background-size: 100% 98%;
   }
 
   h1 {
@@ -836,6 +872,7 @@ input::placeholder {
     background-color: white;
     margin-top: 60px;
     margin-right: 50px;
+    padding-right: 20px;
   }
 
   .tonic-desktop1 {
@@ -850,12 +887,23 @@ input::placeholder {
     background-color: white;
     margin-top: 60px;
     margin-right: 50px;
+    padding-right: 20px;
   }
 
   .tonic-content {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    max-width: 50%;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-bottom: 40px;
+  }
+
+  .tonic-content1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
     background-color: white;
     justify-content: space-between;
     padding-left: 30px;
@@ -866,10 +914,10 @@ input::placeholder {
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 99.5%;
+    width: 100%;
     padding-top: 6em;
     padding-left: 37px;
-    padding-right: 1px;
+    padding-right: 0.1px;
     min-width: 358px;
     left: 0.1px;
     top: 0.1px;
@@ -879,13 +927,16 @@ input::placeholder {
   .abt {
     display: flex;
     flex-direction: column;
-    width: 97%;
+    width: 92.5%;
     justify-content: center;
+    margin: auto;
+    top: -130px;
+    left: -19px;
   }
 
   .contact-form {
     position: relative;
-    width: 97.7%;
+    width: calc(100% + 7px);
     justify-content: center;
     align-content: center;
     background-size: 96% 100%;
@@ -894,11 +945,11 @@ input::placeholder {
     bottom: 60px;
     padding-left: 30px;
     flex-direction: column;
-    padding-right: 30px;
+    padding-right: 0.1px;
     background-color: #6070ff;
-    background-image: url(images/bg1.png);
+    background-image: url(images/bgc3.png);
     background-repeat: no-repeat;
-    left: 0.1px;
+    left: 0%;
     margin: 0%;
   }
 
@@ -914,6 +965,11 @@ input::placeholder {
     width: 50%;
   }
 
+  .cont-right2 {
+    width: 100%;
+    height: 100%;
+  }
+
   .cont-left {
     width: 50%;
   }
@@ -923,8 +979,24 @@ input::placeholder {
     width: 100%;
   }
 
+  .imagez1 {
+    width: 100%;
+    padding: 20px 0.1px 20px 0.1px;
+  }
+
+  .imagez3 {
+    width: 100%;
+    padding: 20px 0.1px 20px 0.1px;
+  }
+
+  .imagez1 img {
+    height: 100%;
+    width: 100%;
+  }
+
   .imagez {
     width: 100%;
+    padding: 20px 20px 20px 20px;
   }
 
   .tonic {
@@ -934,16 +1006,16 @@ input::placeholder {
   .content-right {
     position: relative;
     left: 0.1px;
-    width: 40%;
+    flex-grow: 4;
   }
 
   .content-left {
-    max-width: 60%;
-    margin-left: 60px;
+    max-width: 40%;
+    margin-left: 30px;
   }
 
   .content-left p {
-    width: max-content;
+    width: 100vw;
   }
 
   nav > ul > a > li {
@@ -986,6 +1058,10 @@ input::placeholder {
 
   .frame-skill li {
     list-style: none;
+  }
+
+  #menu2 {
+    display: flex;
   }
 
   #menu2 li {
@@ -1036,12 +1112,12 @@ input::placeholder {
 
   .parag p {
     font-size: 16px;
-    text-align: center;
     color: #ebebff;
     padding-bottom: 15px;
-    max-width: max-content;
-    margin-left: 20%;
-    width: 52%;
+    padding-left: 0%;
+    margin-left: 21%;
+    width: 45%;
+    text-align: center;
   }
 
   .data1 input {
@@ -1091,5 +1167,14 @@ input::placeholder {
     border-color: #ebebff;
     background-color: #ebebff;
     border-style: none;
+  }
+
+  .details {
+    padding-left: 200px;
+    background-image: url(images/bg22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 0.5em;
   }
 }
