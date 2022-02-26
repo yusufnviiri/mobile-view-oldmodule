@@ -455,6 +455,10 @@ button:hover {
   -o-border-radius: 6px;
 }
 
+.hidden33 img {
+  display: none;
+}
+
 .hidden4 button {
   width: 133px;
   height: 40px;
@@ -823,7 +827,7 @@ input::placeholder {
   }
 
   .wrapper {
-    max-width: 100%;
+    max-width: 88%;
     margin: auto;
     background-color: #e5e5e5;
   }
@@ -1018,6 +1022,13 @@ input::placeholder {
     width: 100vw;
   }
 
+  .hidden33 img {
+    display: inline;
+    position: relative;
+    left: 30%;
+    top: 40%;
+  }
+
   nav > ul > a > li {
     padding-left: 20px;
     color: #344563;
@@ -1174,7 +1185,7 @@ input::placeholder {
     background-image: url(images/bg22.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 800px 370px;
     padding-top: 0.5em;
   }
 }
