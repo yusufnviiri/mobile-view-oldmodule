@@ -826,27 +826,36 @@ input::placeholder {
     margin-right: 10px;
   }
 
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+
   .wrapper {
-    max-width: 88%;
-    margin: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0%;
     background-color: #e5e5e5;
   }
 
   .wrapper1 {
-    max-width: 95%;
+    max-width: 100%;
     margin-bottom: 1px;
     padding-bottom: 100px;
+    box-sizing: border-box;
     z-index: 1;
+    padding-left: 50px;
   }
 
   .wrapper2 {
     padding-top: 100px;
     position: relative;
-    max-width: 95%;
+    max-width: 100%;
     padding-bottom: 160px;
-    margin: auto;
+    margin: 0%;
     background-color: #f2f4f8;
     top: -90px;
+    box-sizing: border-box;
   }
 
   #menu1 {
@@ -920,18 +929,20 @@ input::placeholder {
     flex-direction: row;
     width: 100%;
     padding-top: 6em;
-    padding-left: 37px;
+    padding-left: 60px;
     padding-right: 0.1px;
+    padding-bottom: 200px;
     min-width: 358px;
     left: 0.1px;
     top: 0.1px;
+    border-top-right-radius: 150px;
     margin: 0%;
   }
 
   .abt {
     display: flex;
     flex-direction: column;
-    width: 92.5%;
+    width: 100%;
     justify-content: center;
     margin: auto;
     top: -130px;
@@ -945,8 +956,8 @@ input::placeholder {
     align-content: center;
     background-size: 96% 100%;
     align-items: center;
-    padding-bottom: 100px;
     bottom: 60px;
+    top: -80px;
     padding-left: 30px;
     flex-direction: column;
     padding-right: 0.1px;
@@ -955,6 +966,7 @@ input::placeholder {
     background-repeat: no-repeat;
     left: 0%;
     margin: 0%;
+    border-top-left-radius: 150px;
   }
 
   .tonic p {
