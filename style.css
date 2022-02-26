@@ -74,6 +74,18 @@ h1 {
   margin-bottom: 20px;
   margin-top: 2px;
   color: #172b4d;
+  animation-name: design;
+  animation-duration: 3s;
+}
+
+@keyframes design {
+  from {
+    color: rebeccapurple;
+  }
+
+  to {
+    color: green;
+  }
 }
 
 p {
@@ -271,6 +283,10 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .hidden2 button {
@@ -284,6 +300,10 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .hidden3 button {
@@ -297,6 +317,10 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .hidden4 button {
@@ -310,6 +334,10 @@ button:hover {
   border: 1px solid #7f8cff;
   line-height: 24px;
   letter-spacing: 3%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .hidden1 button {
@@ -359,6 +387,7 @@ button:hover {
 .hidden3 button:hover {
   background-color: #6070ff;
   color: white;
+  border-radius: 100px;
 }
 
 .hidden4 button:hover {
